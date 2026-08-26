@@ -35,3 +35,158 @@ select,
 textarea {
     font: inherit;
 }
+
+:root {
+    --cream: #f7f4ed;
+    --cream-dark: #ebe5d8;
+    --green-dark: #26352c;
+    --green: #496653;
+    --green-light: #dce5d8;
+    --terracotta: #b66b4c;
+    --white: #ffffff;
+    --text-light: #f8f6f0;
+
+    --max-width: 1200px;
+}
+
+.container {
+    width: min(90%), var(--max-width);
+    margin: 0 auto;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.eyebrow {
+    color: var(--terracotta);
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.15;
+}
+
+h1 {
+    font-size: clamp(3rem, 7vw, 6.5rem);
+}
+
+h2 {
+    font-size: clamp(2.2rem, 5vw, 4rem);
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    max-width: 65ch;
+}
+
+.button,
+.header_button {
+    display: inline-block;
+    background-color: var(--terracotta);
+    color: var(--white);
+    padding: 14px 26px;
+    border: 2px solid var(--terracotta);
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.button:hover,
+.header_button:hover {
+    background-color: transparent;
+    color: var(--terracotta);
+}
+
+.text_link {
+    display: inline-block;
+    margin-top: 20px;
+    color: var(--terracotta);
+    font-weight: bold;
+}
+
+.text_link:hover {
+    text-decoration: underline;
+}
+
+.site_header {
+    background-color: var(--cream);
+    border-bottom: 1px solid var(--cream-dark);
+    position: relative;
+    z-index: 10;
+}
+
+.header_container {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px
+}
+
+.logo {
+    font-family: 'cormorant garamond', serif;
+    font-style: 1.5rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.main_navigation ul {
+    display: flex;
+    gap: 30px;
+}
+
+.main_navigation a {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.main_navigation a:hover {
+    color: var(--terracotta);
+}
+
+.header_button {
+    padding: 10px 18px;
+    font-size: 0.85rem;
+}
+
+.hero {
+    position: relative;
+    min-height: 75vh;
+    min-height: 700px;
+    overflow: hidden;
+}
+
+.hero_video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg,
+            rgba(20, 30, 24, 0.75) rgba(20, 30, 24, 0.25));
+}
+
+.hero_overlay {
+    position: relative;
+    z-index: 1;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    color: var(--text-light);
+}
