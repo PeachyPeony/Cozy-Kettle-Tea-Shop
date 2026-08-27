@@ -48,6 +48,9 @@ textarea {
     --white: #ffffff;
     --text-light: #f5f1e8;
 
+    --border: #d6cec0;
+    --form-background: #fbf8f1;
+
     --max-width: 1200px;
 }
 
@@ -346,7 +349,7 @@ p {
 }
 
 .contact_details {
-    border-top: 1px solid #d6cec0;
+    border-top: 1px solid var(--border);
     padding-top: 25px;
 }
 
@@ -375,8 +378,8 @@ p {
 .form_group textarea {
     width: 100%;
     padding: 14px;
-    border: 1px solid #d6cec0;
-    background-color: #fbf8f1;
+    border: 1px solid var(--border);
+    background-color: var(--form-background);
     color: var(--green-dark);
     outline: none;
     transition: border-color 0.2s ease;
