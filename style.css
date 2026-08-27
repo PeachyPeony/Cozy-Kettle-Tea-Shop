@@ -442,3 +442,73 @@ fieldset {
     color: #89968d;
     font-size: 0.85rem;
 }
+
+/* Large Screens 1200px+ */
+
+@media (min-width: 1200px) {
+    .hero_content {
+        padding-left: 20px;
+    }
+}
+
+/* Tablet 900px and below */
+
+@media (max-width: 900px) {
+    .section {
+        padding: 80px 0;
+    }
+
+    /* Header */
+    .main_navigation ul {
+        gap: 15px;
+    }
+
+    .header_button {
+        display: none;
+    }
+
+    /* Hero */
+
+    .hero {
+        min-height: 600px;
+    }
+
+    .hero_overlay {
+        min-height: 600px;
+    }
+
+    /* Tea cards */
+
+    .tea_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tea_card:last-child {
+        grid-column: 1 / -1;
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    /* About */
+
+    .about_container {
+        gap: 50px;
+    }
+
+    .about_image {
+        height: 500px;
+    }
+
+    /* Contact */
+
+    .contact_container {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    /* Footer */
+
+    .footer_container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
