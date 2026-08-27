@@ -512,3 +512,195 @@ fieldset {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+/* Mobile 600px and below */
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    .section {
+        padding: 65px 0;
+    }
+
+    /* Header */
+
+    .header_container {
+        min-height: 70px;
+    }
+
+    .logo {
+        font-size: 1.25rem;
+    }
+
+    .main_navigation ul {
+        gap: 12px;
+    }
+
+    .main_navigation a {
+        font-size: 0.75rem;
+    }
+
+    /* Hero */
+
+    .hero {
+        min-height: 600px;
+    }
+
+    .hero_overlay {
+        min-height: 600px;
+    }
+
+    .hero_video {
+        object-position: center;
+    }
+
+    .hero_content {
+        padding: 50px 0;
+    }
+
+    h1 {
+        font-size: clamp(2.8rem, 14vw, 4rem);
+    }
+
+    .hero_text {
+        font-size: 1rem;
+    }
+
+    /* Section headings */
+
+    h2 {
+        font-size: 2.4rem;
+    }
+
+    .section_heading {
+        margin-bottom: 40px;
+    }
+
+    /* Tea cards */
+
+    .tea_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tea_card:last-child {
+        grid-column: auto;
+        max-width: none;
+    }
+
+    .tea_card>img {
+        height: 300px;
+    }
+
+    /* About */
+
+    .about_container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about_image {
+        order: 1;
+    }
+
+    .about_content {
+        order: 2;
+    }
+
+    .about_image {
+        height: 400px;
+    }
+
+    /* Contact form */
+
+    .form_container {
+        padding: 30px 20px;
+    }
+
+    /* Footer */
+
+    .footer_container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding-bottom: 45px;
+    }
+
+}
+
+/* Small mobile 360px and below */
+
+@media (max-width: 360px) {
+
+    .container {
+        width: 92%;
+    }
+
+    .section {
+        padding: 55px 0;
+    }
+
+    /* Header */
+
+    .header_container {
+        flex-wrap: wrap;
+        padding: 15px 0;
+    }
+
+    .main_navigation {
+        width: 100%;
+        order: 3;
+    }
+
+    .main_navigation ul {
+        justify-content: space-between;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .main_navigation a {
+        font-size: 0.7rem;
+    }
+
+    /* Hero */
+
+    .hero,
+    .hero_overlay {
+        min-height: 550px;
+    }
+
+    .hero_content {
+        padding: 40px 0;
+    }
+
+    .hero_text {
+        font-size: 0.95rem;
+    }
+
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Tea cards */
+
+    .tea_card_content {
+        padding: 22px;
+    }
+
+    .tea_card>img {
+        height: 250px;
+    }
+
+    /* About */
+
+    .about_image {
+        height: 300px;
+    }
+
+    /* Form */
+
+    .form_container {
+        padding: 25px 15px;
+    }
+}
