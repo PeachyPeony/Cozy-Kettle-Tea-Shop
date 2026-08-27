@@ -108,7 +108,8 @@ p {
 
 .text_link {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: auto;
+    padding-top: 20px;
     color: var(--terracotta);
     font-weight: bold;
 }
@@ -226,7 +227,7 @@ p {
 
 .tea_grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 }
 
@@ -234,6 +235,8 @@ p {
     background-color: var(--white);
     overflow: hidden;
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .tea_card:hover {
@@ -247,6 +250,9 @@ p {
 
 .tea_card_content {
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .tea_type {
@@ -488,12 +494,6 @@ fieldset {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .tea_card:last-child {
-        grid-column: 1 / -1;
-        max-width: 50%;
-        margin: 0 auto;
-    }
-
     /* About */
 
     .about_container {
@@ -623,11 +623,6 @@ fieldset {
 
     .tea_grid {
         grid-template-columns: 1fr;
-    }
-
-    .tea_card:last-child {
-        grid-column: auto;
-        max-width: none;
     }
 
     .tea_card>img {
