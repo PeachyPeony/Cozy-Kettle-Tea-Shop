@@ -50,7 +50,7 @@ textarea {
 }
 
 .container {
-    width: min(90%), var(--max-width);
+    width: min(90%, var(--max-width));
     margin: 0 auto;
 }
 
@@ -179,7 +179,7 @@ p {
     position: absolute;
     inset: 0;
     background: linear-gradient(90deg,
-            rgba(20, 30, 24, 0.75) rgba(20, 30, 24, 0.25));
+            rgba(20, 30, 24, 0.75), rgba(20, 30, 24, 0.25));
 }
 
 .hero_overlay {
@@ -197,7 +197,7 @@ p {
 
 .hero_content h1 {
     max-width: 800px;
-    margin: 25px;
+    margin: 25px 0;
 }
 
 .hero_text {
@@ -206,8 +206,7 @@ p {
     margin-bottom: 35px;
 }
 
-.hero,
-.eyebrow {
+.hero .eyebrow {
     color: #e6a582;
 }
 
@@ -273,7 +272,7 @@ p {
     gap: 80px;
 }
 
-.about_image img {
+.about_image {
     height: 600px;
     object-fit: cover;
 }
@@ -286,8 +285,7 @@ p {
     margin-bottom: 20px;
 }
 
-.about_content,
-.button {
+.about_content .button {
     margin-top: 15px
 }
 
@@ -315,8 +313,7 @@ p {
     color: #d9dfda;
 }
 
-.subscription,
-.eyebrow {
+.subscription .eyebrow {
     color: #e6a582;
 }
 
@@ -418,7 +415,7 @@ fieldset {
 }
 
 .footer_links h3,
-footer_contact h3 {
+.footer_contact h3 {
     font-size: 1rem;
     margin-bottom: 20px;
 }
