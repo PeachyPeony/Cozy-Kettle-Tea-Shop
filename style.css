@@ -10,8 +10,8 @@ html {
 
 body {
     font-family: 'inter', sans-serif;
-    background-color: #f7f4ed;
-    color: #26352c;
+    background-color: var(--cream);
+    color: var(--green-dark);
     line-height: 1.6;
 }
 
@@ -37,14 +37,16 @@ textarea {
 }
 
 :root {
-    --cream: #f7f4ed;
-    --cream-dark: #ebe5d8;
-    --green-dark: #26352c;
-    --green: #496653;
-    --green-light: #dce5d8;
-    --terracotta: #b66b4c;
+    --cream: #f5f1e8;
+    --cream-dark: #ebe1d5;
+    --green-dark: #293b32;
+    --green: #718477;
+    --green-light: #dde3de;
+    --brown: #3b3028;
+    --burgundy: #7d455c;
+    --gold: #c39a5a;
     --white: #ffffff;
-    --text-light: #f8f6f0;
+    --text-light: #f5f1e8;
 
     --max-width: 1200px;
 }
@@ -59,7 +61,7 @@ textarea {
 }
 
 .eyebrow {
-    color: var(--terracotta);
+    color: var(--burgundy);
     font-size: 0.8rem;
     font-weight: bold;
     letter-spacing: 0.15em;
@@ -92,10 +94,10 @@ p {
 .button,
 .header_button {
     display: inline-block;
-    background-color: var(--terracotta);
+    background-color: var(--burgundy);
     color: var(--white);
     padding: 14px 26px;
-    border: 2px solid var(--terracotta);
+    border: 2px solid var(--burgundy);
     font-weight: bold;
     transition: 0.3s ease;
 }
@@ -103,14 +105,14 @@ p {
 .button:hover,
 .header_button:hover {
     background-color: transparent;
-    color: var(--terracotta);
+    color: var(--burgundy);
 }
 
 .text_link {
     display: inline-block;
     margin-top: auto;
     padding-top: 20px;
-    color: var(--terracotta);
+    color: var(--burgundy);
     font-weight: bold;
 }
 
@@ -156,7 +158,7 @@ p {
 }
 
 .desktop_navigation a:hover {
-    color: var(--terracotta);
+    color: var(--burgundy);
 }
 
 .header_button {
@@ -213,7 +215,7 @@ p {
 }
 
 .hero .eyebrow {
-    color: #e6a582;
+    color: var(--gold);
 }
 
 .section_heading {
@@ -256,7 +258,7 @@ p {
 }
 
 .tea_type {
-    color: var(--terracotta);
+    color: var(--burgundy);
     font-size: 0.75rem;
     font-weight: bold;
     letter-spacing: 0.12em;
@@ -269,7 +271,7 @@ p {
 }
 
 .tea_card p {
-    color: #59645d;
+    color: var(--green);
 }
 
 .about {
@@ -325,7 +327,7 @@ p {
 }
 
 .subscription .eyebrow {
-    color: #e6a582;
+    color: var(--gold);
 }
 
 .contact_container {
@@ -344,7 +346,7 @@ p {
 }
 
 .contact_details {
-    border-top: 1px solid #d8d2c5;
+    border-top: 1px solid #d6cec0;
     padding-top: 25px;
 }
 
@@ -373,8 +375,8 @@ p {
 .form_group textarea {
     width: 100%;
     padding: 14px;
-    border: 1px solid #cfc9bd;
-    background-color: #faf9f6;
+    border: 1px solid #d6cec0;
+    background-color: #fbf8f1;
     color: var(--green-dark);
     outline: none;
     transition: border-color 0.2s ease;
@@ -383,7 +385,7 @@ p {
 .form_group input:focus,
 .form_group select:focus,
 .form_group textarea:focus {
-    border-color: var(--terracotta);
+    border-color: var(--burgundy);
 }
 
 .form_group textarea {
@@ -408,7 +410,7 @@ fieldset {
 }
 
 .site_footer {
-    background-color: #1b2720;
+    background-color: var(--brown);
     color: var(--text-light);
     padding-top: 70px;
 }
@@ -421,7 +423,8 @@ fieldset {
 }
 
 .footer_brand p {
-    color: #bbc5bd;
+    color: var(--text-light);
+    opacity: 0.75;
     margin-top: 10px;
 }
 
@@ -436,21 +439,23 @@ fieldset {
 }
 
 .footer_links a:hover {
-    color: #e6a582;
+    color: var(--gold);
 }
 
 .footer_contact p {
-    color: #bbc5bd;
+    color: var(--text-light);
+    opacity: 0.75;
     margin-bottom: 15px;
 }
 
 .footer_bottom {
-    border-top: 1px solid #344239;
+    border-top: 1px solid #4a514b;
     padding: 25px 0;
 }
 
 .footer_bottom p {
-    color: #89968d;
+    color: var(--green);
+    opacity: 0.75;
     font-size: 0.85rem;
 }
 
