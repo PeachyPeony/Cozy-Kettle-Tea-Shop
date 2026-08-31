@@ -478,7 +478,7 @@ fieldset {
     }
 
     /* Header */
-    .main_navigation ul {
+    .desktop_navigation ul {
         gap: 15px;
     }
 
@@ -594,11 +594,11 @@ fieldset {
     /* Hero */
 
     .hero {
-        min-height: 600px;
+        min-height: 550px;
     }
 
     .hero_overlay {
-        min-height: 600px;
+        min-height: 550px;
     }
 
     .hero_video {
@@ -689,21 +689,6 @@ fieldset {
     .header_container {
         flex-wrap: wrap;
         padding: 15px 0;
-    }
-
-    .main_navigation {
-        width: 100%;
-        order: 3;
-    }
-
-    .main_navigation ul {
-        justify-content: space-between;
-        gap: 8px;
-        width: 100%;
-    }
-
-    .main_navigation a {
-        font-size: 0.7rem;
     }
 
     /* Hero */
