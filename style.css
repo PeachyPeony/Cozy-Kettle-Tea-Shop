@@ -1,3 +1,5 @@
+/* Reset and global styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -36,6 +38,8 @@ textarea {
     font: inherit;
 }
 
+/* Color variables */
+
 :root {
     --cream: #f5f1e8;
     --cream-dark: #ebe1d5;
@@ -53,6 +57,8 @@ textarea {
 
     --max-width: 1200px;
 }
+
+/* Reusable layout */
 
 .container {
     width: min(90%, var(--max-width));
@@ -94,6 +100,8 @@ p {
     max-width: 65ch;
 }
 
+/* Buttons */
+
 .button,
 .header_button {
     display: inline-block;
@@ -123,6 +131,8 @@ p {
     text-decoration: underline;
 }
 
+/* Header */
+
 .site_header {
     background-color: var(--cream);
     border-bottom: 1px solid var(--cream-dark);
@@ -146,6 +156,7 @@ p {
 }
 
 /* Mobile menu is hidden by default */
+
 .mobile_menu {
     display: none;
 }
@@ -168,6 +179,8 @@ p {
     padding: 10px 18px;
     font-size: 0.85rem;
 }
+
+/* Hero */
 
 .hero {
     position: relative;
@@ -220,6 +233,8 @@ p {
 .hero .eyebrow {
     color: var(--gold);
 }
+
+/* Featured Teas */
 
 .section_heading {
     max-width: 700px;
@@ -277,6 +292,8 @@ p {
     color: var(--green);
 }
 
+/* About / Our Story */
+
 .about {
     background-color: var(--green-light);
 }
@@ -305,6 +322,7 @@ p {
     margin-top: 15px
 }
 
+/* Tea Club / Subscription */
 .subscription {
     background-color: var(--green-dark);
     color: var(--text-light);
@@ -332,6 +350,8 @@ p {
 .subscription .eyebrow {
     color: var(--gold);
 }
+
+/* Contact / Form */
 
 .contact_container {
     display: grid;
@@ -411,6 +431,8 @@ fieldset {
 .checkbox_label input {
     width: auto;
 }
+
+/* Footer */
 
 .site_footer {
     background-color: var(--brown);
