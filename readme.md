@@ -23,5 +23,26 @@ The goal of this project is to create a responsive one-page business website whi
 - CSS Grid — Used for the tea card, contact and footer layouts.
 - Flexbox — Used for navigation and other flexible layouts.
 - CSS Custom Properties — Used to store and reuse colors and other design values.
-- Google Fonts — Cormorant Garamond and Inter are usef for typography.
+- Google Fonts — Cormorant Garamond and Inter are usef for typography. 
+
+# Responsive Design 
+
+The website has been designed to work across different screen sizes.
+The layout adapts at several breakpoints: 
+
+- Desktop: Full navigation and four-column tea grid
+- Tablet: Two-column tea grid and simplified header
+- Mobile: Mobile navigation and single-column layouts
+- Small mobile: Additional adjustments for smaller screens 
+
+# Accessibility 
+
+Accessibility was considered throughout the project. This includes: 
+
+- Semantic HTML elements such as <header>, <main>, <section>, <article> and <footer>
+- Descriptive alt text for images
+- Labels connected to form inputs
+- Use of <fieldset> and <legend> for related form controls
+- aria-label attributes for navigation
+- Responsive layouts for different devices
 
