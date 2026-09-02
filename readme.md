@@ -16,7 +16,7 @@ The goal of this project is to create a responsive one-page business website whi
 - Accessible form labels and alternative text for images
 - Smooth scrolling between sections 
 
-# Technologies Used 
+## Technologies Used 
 
 - HTML5 — Used to create the structure and semantic content of the website.
 - CSS3 — Used for styling, layouts, animations, colors and responsive design.
@@ -25,7 +25,7 @@ The goal of this project is to create a responsive one-page business website whi
 - CSS Custom Properties — Used to store and reuse colors and other design values.
 - Google Fonts — Cormorant Garamond and Inter are usef for typography. 
 
-# Responsive Design 
+## Responsive Design 
 
 The website has been designed to work across different screen sizes.
 The layout adapts at several breakpoints: 
@@ -35,7 +35,7 @@ The layout adapts at several breakpoints:
 - Mobile: Mobile navigation and single-column layouts
 - Small mobile: Additional adjustments for smaller screens 
 
-# Accessibility 
+## Accessibility 
 
 Accessibility was considered throughout the project. This includes: 
 
@@ -46,7 +46,7 @@ Accessibility was considered throughout the project. This includes:
 - aria-label attributes for navigation
 - Responsive layouts for different devices
 
-# Design 
+## Design 
 
 The design uses a warm and natural color palette inspired by tea and relaxation.
 The main colors include: 
@@ -60,7 +60,7 @@ The main colors include:
 
 The typography combines Cormorant Garamond for headings and branding with Inter for the main body text. 
 
-# Form 
+## Form 
 
 The contact form collects: 
 
