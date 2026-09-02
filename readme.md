@@ -23,7 +23,7 @@ The goal of this project is to create a responsive one-page business website whi
 - CSS Grid — Used for the tea card, contact and footer layouts.
 - Flexbox — Used for navigation and other flexible layouts.
 - CSS Custom Properties — Used to store and reuse colors and other design values.
-- Google Fonts — Cormorant Garamond and Inter are usef for typography. 
+- Google Fonts — Cormorant Garamond and Inter are used for typography. 
 
 ## Responsive Design 
 
@@ -69,7 +69,16 @@ The contact form collects:
 - Phone number
 - Favourite type of tea
 - Newsletter preferences
-- A message about the user's favorite tea
+- A message about the user's favourite tea
 
-The form currently uses httpbin as a testing endpoint rather than connecting to a real database or email serivce.
+The form currently uses httpbin as a testing endpoint rather than connecting to a real database or email serivce. 
+
+## Credits 
+
+This is a fictional tea shop created for educational purposes.
+The website, content and branding were created as part of a web development bootcamp project.
+
+## Author 
+
+Created by Alicia as a web development bootcamp project in 2026.
 
