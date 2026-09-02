@@ -42,7 +42,7 @@ Accessibility was considered throughout the project. This includes:
 - Semantic HTML elements such as <header>, <main>, <section>, <article> and <footer>
 - Descriptive alt text for images
 - Labels connected to form inputs
-- Use of <fieldset> and <legend> for related form controls
+- Use of "<fieldset>" and <legend> for related form controls
 - aria-label attributes for navigation
 - Responsive layouts for different devices
 
