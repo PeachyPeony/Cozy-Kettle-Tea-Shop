@@ -14,5 +14,14 @@ The goal of this project is to create a responsive one-page business website whi
 - Responsive layout for desktop, tablet and mobile devices
 - Hover effect on buttons, links and tea cards 
 - Accessible form labels and alternative text for images
-- Smooth scrolling between sections
+- Smooth scrolling between sections 
+
+# Technologies Used 
+
+- HTML5 — Used to create the structure and semantic content of the website.
+- CSS3 — Used for styling, layouts, animations, colors and responsive design.
+- CSS Grid — Used for the tea card, contact and footer layouts.
+- Flexbox — Used for navigation and other flexible layouts.
+- CSS Custom Properties — Used to store and reuse colors and other design values.
+- Google Fonts — Cormorant Garamond and Inter are usef for typography.
 
