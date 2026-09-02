@@ -46,3 +46,30 @@ Accessibility was considered throughout the project. This includes:
 - aria-label attributes for navigation
 - Responsive layouts for different devices
 
+# Design 
+
+The design uses a warm and natural color palette inspired by tea and relaxation.
+The main colors include: 
+
+- Cream
+- Dark green
+- Light green
+- Burgundy
+- Gold 
+- Brown 
+
+The typography combines Cormorant Garamond for headings and branding with Inter for the main body text. 
+
+# Form 
+
+The contact form collects: 
+
+- Name
+- Email address
+- Phone number
+- Favourite type of tea
+- Newsletter preferences
+- A message about the user's favorite tea
+
+The form currently uses httpbin as a testing endpoint rather than connecting to a real database or email serivce.
+
