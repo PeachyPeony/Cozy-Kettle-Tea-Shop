@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-family: 'inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: var(--cream);
     color: var(--green-dark);
     line-height: 1.6;
@@ -149,7 +149,7 @@ p {
 }
 
 .logo {
-    font-family: 'cormorant garamond', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 1.5rem;
     font-weight: bold;
     white-space: nowrap;
@@ -668,14 +668,11 @@ fieldset {
 
     .about_image {
         order: 1;
+        height: 400px;
     }
 
     .about_content {
         order: 2;
-    }
-
-    .about_image {
-        height: 400px;
     }
 
     /* Contact form */
