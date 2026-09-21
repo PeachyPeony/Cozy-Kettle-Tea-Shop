@@ -75,5 +75,5 @@ The form currently uses httpbin as a testing endpoint rather than connecting to 
 ## About This Project
 
 This is a fictional tea shop created for educational purposes.
-The website, content and branding were created as part of a self-paced web development bootcamp i am currently taking, as a practical exercise in HTML, CSS.
+The website, content and branding were created as part of a self-paced web development bootcamp i am currently taking, as a practical exercise in HTML and CSS.
 
