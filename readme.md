@@ -1,5 +1,4 @@
 # Cozy Kettle
-## About the project
 Cozy Kettle is a responsive tea shop website. The website presents a fictional tea brand offering carefully selected loose-leaf teas from around the world.
 The goal of this project is to create a responsive one-page business website while practising HTML forms and basic web design. The site includeds a responsive header, a signup form with different input types, and styling that works across mobile, tablet and desktop screen sizes. 
 
@@ -73,12 +72,8 @@ The contact form collects:
 
 The form currently uses httpbin as a testing endpoint rather than connecting to a real database or email serivce. 
 
-## Credits 
+## About This Project
 
 This is a fictional tea shop created for educational purposes.
-The website, content and branding were created as part of a web development bootcamp project.
-
-## Author 
-
-Created by Alicia as a web development bootcamp project in 2026.
+The website, content and branding were created as part of a self-paced web development bootcamp i am currently taking, as a practical exercise in HTML, CSS.
 
